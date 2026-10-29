@@ -42,7 +42,7 @@ const PELE = {
 export const ELENCO = [
   // ---------- Titulares ----------
   {
-    numero: 1, apelido: 'Lamas', nome: 'Santiago Lamas', nomeCamisa: 'Lamas', referencia: 'Rogério Ceni', posicao: 'GOL', pe: 'D', titular: true,
+    numero: 1, apelido: 'Lamas', nome: 'Santiago Lamas', nomeCamisa: 'Lamas', referencia: 'Rogério Ceni', posicao: 'GOL', pe: 'E', titular: true,
     atributos: { FOR: 85, CUR: 90, QUE: 76, PRE: 90, FRI: 94 },
     especiais: [], estilo: 'O goleiro artilheiro',
     uniforme: { clube: 'São Paulo (goleiro)', padrao: 'faixa', camisa: '#2a2e35', cores: ['#d0021b', '#ffffff', '#111111'], calcao: '#2a2e35', meiao: '#2a2e35', numero: '#ffffff', gola: '#d0021b' },
@@ -50,7 +50,7 @@ export const ELENCO = [
     visual: { pele: PELE.clara, cabelo: { estilo: 'curto', cor: '#3b2a1e' }, barba: 'nenhuma', faixa: null, altura: 1.88, porte: 'normal', coxas: 'normais', chuteira: '#111111', goleiro: true },
   },
   {
-    numero: 6, apelido: 'Poncho', nome: 'Alfonso Cantu', nomeCamisa: 'Poncho', referencia: 'Daniel Alves', posicao: 'LD', pe: 'D', titular: true,
+    numero: 6, apelido: 'Poncho', nome: 'Alfonso Cantu', nomeCamisa: 'Poncho', referencia: 'Daniel Alves', posicao: 'LD', pe: 'E', titular: true,
     atributos: { FOR: 92, CUR: 94, QUE: 80, PRE: 92, FRI: 90 },
     especiais: [], estilo: 'Lateral que arrisca',
     uniforme: { clube: 'Ac Milan', padrao: 'listras', camisa: '#03002e', cores: ['#03002e'], calcao: '#004d98', meiao: '#004d98', numero: '#f7d84a', gola: '#004d98' },
@@ -74,7 +74,7 @@ export const ELENCO = [
     visual: { pele: PELE.claraRosada, cabelo: { estilo: 'curto', cor: '#e2c27a' }, barba: 'nenhuma', faixa: null, altura: 1.81, porte: 'forte', coxas: 'normais', chuteira: '#111111' },
   },
   {
-    numero: 3, apelido: 'Jose', nome: 'Jose Andres', nomeCamisa: 'Jose A.', referencia: 'Roberto Carlos', posicao: 'LE', pe: 'E', titular: true,
+    numero: 3, apelido: 'Jose', nome: 'Jose Andres', nomeCamisa: 'Jose A.', referencia: 'Roberto Carlos', posicao: 'LE', pe: 'D', titular: true,
     atributos: { FOR: 70, CUR: 75, QUE: 76, PRE: 85, FRI: 89 },
     especiais: ['trivela'], estilo: 'O canhão de efeito',
     uniforme: { clube: 'Real Madrid', padrao: 'liso', camisa: '#f8f8f8', cores: [], calcao: '#f8f8f8', meiao: '#f8f8f8', numero: '#3b2a70', gola: '#d4af37' },
@@ -114,7 +114,7 @@ export const ELENCO = [
     visual: { pele: PELE.clara, cabelo: { estilo: 'curto', cor: '#6F4E37' }, barba: 'nenhuma', faixa: '#ffffff', altura: 1.82, porte: 'magro', coxas: 'normais', chuteira: '#ffffff' },
   },
   {
-    numero: 30, apelido: 'Eugue', nome: 'Eugenio Garza', nomeCamisa: 'Eugenio', referencia: 'Lionel Messi', posicao: 'ATA', pe: 'E', titular: true,
+    numero: 30, apelido: 'Eugue', nome: 'Eugenio Garza', nomeCamisa: 'Eugenio', referencia: 'Lionel Messi', posicao: 'ATA', pe: 'D', titular: true,
     atributos: { FOR: 90, CUR: 90, QUE: 90, PRE: 90, FRI: 85 },
     especiais: [], estilo: 'Precisão cirúrgica',
     uniforme: { clube: 'Barcelona', padrao: 'listras', camisa: '#a50044', cores: ['#004d98'], calcao: '#004d98', meiao: '#004d98', numero: '#f7d84a', gola: '#004d98' },
@@ -148,7 +148,7 @@ export const ELENCO = [
     visual: { pele: PELE.clara, cabelo: { estilo: 'volumoso', cor: '#4a3222' }, barba: 'bigode', corBarba: '#4a3222', faixa: null, altura: 1.80, porte: 'normal', coxas: 'normais', chuteira: '#111111' },
   },
   {
-    numero: 14, apelido: 'Manu', nome: 'Manuel Madero', nomeCamisa: 'Manu', referencia: 'Siniša Mihajlović', posicao: 'ZAG', pe: 'E', titular: false,
+    numero: 14, apelido: 'Manu', nome: 'Manuel Madero', nomeCamisa: 'Manu', referencia: 'Siniša Mihajlović', posicao: 'ZAG', pe: 'D', titular: false,
     atributos: { FOR: 96, CUR: 92, QUE: 86, PRE: 98, FRI: 94 },
     especiais: [], estilo: 'O zagueiro especialista',
     uniforme: { clube: 'Lazio', padrao: 'liso', camisa: '#87ceeb', cores: [], calcao: '#ffffff', meiao: '#87ceeb', numero: '#1d2a4d', gola: '#ffffff' },
@@ -156,7 +156,7 @@ export const ELENCO = [
     visual: { pele: PELE.claraRosada, cabelo: { estilo: 'curto', cor: '#6F4E37' }, barba: 'nenhuma', faixa: null, altura: 1.85, porte: 'forte', coxas: 'normais', chuteira: '#111111' },
   },
   {
-    numero: 16, apelido: 'Patada', nome: 'Mr. Angulo', nomeCamisa: 'Mr. Angulo', referencia: 'Branco', posicao: 'LE', pe: 'E', titular: false,
+    numero: 16, apelido: 'Patada', nome: 'Mr. Angulo', nomeCamisa: 'Mr. Angulo', referencia: 'Branco', posicao: 'LE', pe: 'D', titular: false,
     atributos: { FOR: 99, CUR: 90, QUE: 85, PRE: 99, FRI: 95 },
     especiais: [], estilo: 'Patada de canhota',
     uniforme: { clube: 'Brasil', padrao: 'liso', camisa: '#ffdf00', cores: [], calcao: '#0033a0', meiao: '#ffffff', numero: '#009c3b', gola: '#009c3b' },
@@ -196,7 +196,7 @@ export const ELENCO = [
     visual: { pele: PELE.clara, cabelo: { estilo: 'raspado', cor: '#8a5a32' }, barba: 'nenhuma', faixa: null, altura: 1.85, porte: 'forte', coxas: 'normais', chuteira: '#111111' },
   },
   {
-    numero: 19, apelido: 'Muela', nome: 'Eugenio Muela', nomeCamisa: 'Muela', referencia: 'Diego Maradona', posicao: 'MEI', pe: 'E', titular: false,
+    numero: 19, apelido: 'Muela', nome: 'Eugenio Muela', nomeCamisa: 'Muela', referencia: 'Diego Maradona', posicao: 'MEI', pe: 'D', titular: false,
     atributos: { FOR: 90, CUR: 95, QUE: 92, PRE: 94, FRI: 95 },
     especiais: [], estilo: 'Canhota de ouro',
     uniforme: { clube: 'Argentina', padrao: 'listras', camisa: '#75aadb', cores: ['#ffffff'], calcao: '#111111', meiao: '#ffffff', numero: '#111111', gola: '#111111' },
